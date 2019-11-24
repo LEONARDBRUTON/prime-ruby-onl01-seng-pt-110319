@@ -1,5 +1,12 @@
-def prime?(num)
-  def prime?(n) 
+
+
+
+
+
+
+
+
+def prime?(n) 
   return false if n < 2
   return true if n == 2
   (2..Math.sqrt(n).ceil).each do |x|
